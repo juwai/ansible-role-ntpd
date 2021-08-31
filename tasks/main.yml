@@ -6,6 +6,6 @@
 
 - name: Ensure ntpd start on boot
   service:
-    name: 'ntp'
+    name: 'ntpd'
     state: 'started'
     enabled: yes
