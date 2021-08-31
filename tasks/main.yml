@@ -1,0 +1,11 @@
+---
+- name: Install ntpd
+  yum:
+    name: 'ntp'
+    state: 'present'
+
+- name: Ensure ntpd start on boot
+  service:
+    name: 'ntp'
+    state: 'started'
+    enabled: yes
