@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: ntpd
   author: Juwai IQI
   description: Install ntpd
   company: Juwai IQI
